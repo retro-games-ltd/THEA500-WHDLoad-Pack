@@ -8,5 +8,5 @@ fi
 
 V=$1
 F=THEA500-WHDLoad-package-${V}.zip
-zip -r ${F} THEA500
+zip -r ${F} THEA500 -x "*.gitignore"
 sha256sum ${F}
